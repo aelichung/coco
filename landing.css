@@ -27,37 +27,58 @@ body {
 }
 
 .TL {
-  top: 50px;
+  top: 40px;
   left: 20px;
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.absFull {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 #menuOpenBtn {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  top: 40px;
+  right: 40px;
+  overflow: hidden;
   cursor: pointer;
   -webkit-transition: color 0.2s, background 0.2s;
   transition: color 0.2s, background 0.2s;
   -webkit-box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 5px 12px rgba(0, 0, 0, 0.5);
   color: #fff;
-  border-radius: 5px;
+  border-radius: 3px;
   background: #ff530d;
   text-align: center;
+  font-size: 26px;
+  padding: 4px 0px;
+}
+
+#menuOpenBtn:hover {
+  background: #fff;
+  color: #ff530d;
 }
 
 .hero-img {
-  width: auto;
-  top: 0;
-  left: 0;
-  position: relative;
+  width: 100%;
+  z-index: 0;
 }
 
 .links-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100vh;
 }
 
 .ticketsCTA {
