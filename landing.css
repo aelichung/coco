@@ -110,11 +110,11 @@ blockquote {
       rgb(7, 2, 17, 0.5),
       rgba(15, 21, 67, 1)
     ),
-    url('../assets/4.jpg');
+    url('assets/4.jpg');
 }
 
 .storybg {
-  background-image: url('../assets/b1.jpg');
+  background-image: url('assets/b1.jpg');
 }
 
 .storyContent {
@@ -201,11 +201,11 @@ p {
       rgb(7, 2, 17, 0.5),
       rgba(15, 21, 67, 1)
     ),
-    url('../assets/4.jpg');
+    url('assets/4.jpg');
 }
 
 .ticketsBg {
-  background-image: url('../assets/a8.jpg');
+  background-image: url('assets/a8.jpg');
 }
 
 .jcarousel {
