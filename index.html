@@ -4,38 +4,47 @@
 <head>
   <title>COCO</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
   <link rel="stylesheet" type="text/css" href="/landing.css" />
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i" rel="stylesheet">" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 </head>
 
 <body class="landing">
+  <div id="topRight" class="TR" style="right: 0vw; visibility: visible;">
+    <div id="menuOpenBtn" class="TR menuToggle">
+      <div class="ion-navicon-round"></div>
+    </div>
+  </div>
   <div id="sideMenu" class="TR">
+    <div id="menuCloseBtn" class="closeBtn TR menuToggle">
+      <div class="ion-close-round">
+      </div>
+    </div>
     <div id="sideMenuBoxes" class="absFull">
       <div id="sideMenuBtns">
         <nav class="mainMenu TL">
-          <a class="mainMenuBtn" href="/coco/" rel="home" data-linkposition="nav/1" data-linkname="nav/1/sw_tlj/link/home">
+          <a class="mainMenuBtn" href="#home">
             <div class="label">
               HOME
             </div>
           </a>
-          <a class="mainMenuBtn" href="/coco/trailer/" rel="trailer" data-linkposition="nav/2" data-linkname="nav/2/sw_tlj/link/trailer">
+          <a class="mainMenuBtn" href="#trailer">
             <div class="label">
               TRAILER
             </div>
           </a>
-          <a class="mainMenuBtn" href="/coco/story" rel="story" data-linkposition="nav/3" data-linkname="nav/3/sw_tlj/link/story">
+          <a class="mainMenuBtn" href="#story">
             <div class="label">
               STORY
             </div>
           </a>
-          <a class="mainMenuBtn" href="/coco/gallery" rel="gallery" data-linkposition="nav/4" data-linkname="nav/4/sw_tlj/link/gallery">
+          <a class="mainMenuBtn" href="#gallery">
             <div class="label">
               GALLERY
             </div>
           </a>
-          <a class="mainMenuBtn" href="/coco/tickets" rel="tickets" data-linkposition="nav/5" data-linkname="nav/5/sw_tlj/link/tickets">
+          <a class="mainMenuBtn" href="#tickets">
             <div class="label">
               GET TICKETS
             </div>
@@ -44,34 +53,121 @@
       </div>
     </div>
   </div>
-  <div id="menuCloseBtn" class="closeBtn TR">
-    <div id="ion-close-round">
-    </div>
-  </div>
 
-
-  <section class="hero-content">
+  <section id="home" class="hero-content">
     <div class="links-container absFull" style="left: 0vw;">
-      <div id="topRight" class="TR" style="right: 0vw; visibility: visible;">
-        <div id="menuOpenBtn" class="TR">
-          <div class="ion-navicon-round">
 
-          </div>
-        </div>
-      </div>
       <img class="hero-img" alt="Coco Now Playing in theaters" src="assets/coco-hero.jpg" />
-      <div class="TL">
-        <img class="cocoLogo" alt="coco-logo" src="assets/coco logo.png" />
-        <a class="ticketsCTA" href="https://www.fandango.com/coco-2017-185799/movie-times" title="Get Tickets for Coco" data-title="Get Tickets for Coco">
+      <div class="TL cocoLogo">
+        <img alt="coco-logo" src="assets/coco logo.png" />
+        <a class="ticketsCTA" href="#tickets" title="Get Tickets for Coco">
             GET TICKETS
       </a>
       </div>
     </div>
   </section>
+  <section id="trailer" class="epkSection" style="">
+    <div class="bg absFull">
+      <h2 class="TL">TRAILER</h2>
+      <div class="center">
+        <iframe class="shadow" width="1024" height="560" src="https://www.youtube.com/embed/Rvr68u6k5sI?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+  <section id="story" class="epkSection" style="">
+    <div class="storybg absFull">
+      <div class=" TL storyContent">
+        <h2>STORY</h2>
+        <p>
+          Despite his family’s baffling generations-old ban on music, Miguel dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz. Desperate to prove his talent, Miguel finds himself in the stunning and colorful Land of the Dead following
+          a mysterious chain of events. Along the way, he meets charming trickster Hector, and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="epkSection" style="">
+    <div class="gallerybg absFull">
+      <h2 class="TL">GALLERY</h2>
+      <div class="galleryContent">
+        <div class="jcarousel" dir="rtl">
+          <ul>
+            <li>
+              <img src="assets/2.jpg" alt="COCO image 1" />
+            </li>
+            <li>
+              <img src="assets/3.jpg" alt="COCO image 2" />
+            </li>
+            <li>
+              <img src="assets/5.jpg" alt="COCO image 3" />
+            </li>
+            <li>
+              <img src="assets/6.jpg" alt="COCO image 4" />
+            </li>
+            <li>
+              <img src="assets/7.jpg" alt="COCO image 5" />
+            </li>
+            <li>
+              <img src="assets/8.jpg" alt="COCO image 6" />
+            </li>
+            <li>
+              <img src="assets/9.jpg" alt="COCO image 7" />
+            </li>
+            <li>
+              <img src="assets/a5.jpg" alt="COCO image 8" />
+            </li>
+            <li>
+              <img src="assets/a8.jpg" alt="COCO image 9" />
+            </li>
+            <li>
+              <img src="assets/b6.jpg" alt="COCO image 10" />
+            </li>
+            <li>
+              <img src="assets/c2.jpg" alt="COCO image 11" />
+            </li>
+          </ul>
+        </div>
+        <div class="rightBtn jcarousel-next">
+          <div class="ion-chevron-right">
 
-  <script src="scripts/utilities.js"></script>
+          </div>
+        </div>
+        <div class="leftBtn jcarousel-prev">
+          <div class="ion-chevron-left">
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section id="tickets" class="epkSection" style="">
+    <div class="ticketsBg absFull">
+      <h2 class="TL">GET TICKETS</h2>
+      <div class="TicketsContainer">
+        <ul class="ticketsBtns">
+          <li>
+            <a class="ticketsBtn" href="https://www.fandango.com/coco-2017-185799/movie-times">
+                <img src="assets/Fandango.png" class="thumb">
+            </a>
+          </li>
+          <li>
+            <a class="ticketsBtn" href="https://www.movietickets.com/">
+                <img src="assets/movietickets.png" class="thumb">
+            </a>
+          </li>
+          <li>
+            <a class="ticketsBtn" href="https://www.atomtickets.com/">
+                <img src="assets/atom.png" class="thumb">
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </section>
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script src="scripts/landing.js">
+  <script src="jCarousel.js"></script>
+  <script src="landing.js">
   </script>
 </body>
 
